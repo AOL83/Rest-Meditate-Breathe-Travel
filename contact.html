@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <meta name="description" content="Website By Terence Edward Arnold Lewis, this is the contact page.">
-    <title>Contact Us</title>
+    <meta name="description" content="Book your spa and wellness retreat to Lithuania.">
+    <title>Book Your Retreat | RMBT</title>
 </head>
 
 <body>
@@ -19,54 +19,61 @@
         <nav class="navigation">
             <ul>
                 <li><a href="index.html#top">Home</a></li>
-                <li><a href="index.html#services-list">Services </a></li>
+                <li><a href="index.html#services-list">Retreats</a></li>
                 <li><a href="index.html#section-needs">About</a></li>
-                <li><a href="index.html#section-needs">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         <label for="nav-toggle" class="nav-toggle-label">
             <span></span>
         </label>
-
     </section>
 
     <div class="container-b">
-        <h2 class="brand-b"><span>RMBT</span> Support Solutions</h2>
+        <h2 class="brand-b"><span>RMBT</span> Spa Retreats</h2>
         <div class="wrapper">
             <div class="company-info">
-                <h3>IT & Office Support Solutions Agency</h3>
+                <h3>Booking & Inquiries</h3>
                 <ul>
-                    <li><i class="fa fa-road"></i> 82 Tinkerbell lane</li>
-                    <li><i class="fa fa-phone"></i> +44 (0) 208-never-going-to-get-it</li>
-                    <li><i class="fa fa-envelope"></i> rmbt@gmail.test</li>
+                    <li><i class="fa fa-map-marker"></i> 82 Tranquility Lane, London</li>
+                    <li><i class="fa fa-phone"></i> +44 1234 567890</li>
+                    <li><i class="fa fa-envelope"></i> bookings@rmbttravel.com</li>
                 </ul>
             </div>
             <div class="contact">
-                <h3>Get In Touch & Drop Us An Email</h3>
-                <form action="thankyou.html" method="GET" aria-label="Form to request a callback">
+                <h3>Plan Your Lithuanian Spa Getaway</h3>
+                <form action="thankyou.html" method="GET" aria-label="Retreat booking form">
                     <p>
-                        <label for="name">Name:</label>
-                        <input id="name" type="text" name="name" class="input-field" aria-required="true">
+                        <label for="name">Full Name:</label>
+                        <input id="name" type="text" name="name" class="input-field" required>
                     </p>
                     <p>
-                        <label for="company">Company:</label>
-                        <input id="company" type="text" name="Company" class="input-field" aria-required="true">
+                        <label for="email">Email Address:</label>
+                        <input id="email" type="email" name="email" class="input-field" required>
                     </p>
                     <p>
-                        <label for="email">Email:</label>
-                        <input id="email" type="email" name="email" class="input-field" aria-required="true">
+                        <label for="telephone">Phone Number (optional):</label>
+                        <input id="telephone" type="text" name="telephone" class="input-field">
                     </p>
                     <p>
-                        <label for="telephone">Telephone:</label>
-                        <input id="telephone" type="text" name="telephone" class="input-field" aria-required="true">
+                        <label for="dates">Preferred Travel Dates:</label>
+                        <input id="dates" type="text" name="dates" class="input-field" placeholder="e.g., 10–15 August 2025">
+                    </p>
+                    <p>
+                        <label for="retreat-type">Retreat Type:</label>
+                        <select id="retreat-type" name="retreat-type" class="input-field">
+                            <option value="forest">Forest & Nature Retreat</option>
+                            <option value="mineral">Mineral Spa & Wellness</option>
+                            <option value="beauty">Beauty & Skincare</option>
+                            <option value="custom">Custom Experience</option>
+                        </select>
                     </p>
                     <p class="full">
-                        <label for="message">Further information:</label>
-                        <textarea name="message" id="message" rows="6"
-                            placeholder="Type your message here..."></textarea>
+                        <label for="message">Tell us more (goals, preferences, allergies, etc.):</label>
+                        <textarea name="message" id="message" rows="6" placeholder="Share anything you'd like us to know..."></textarea>
                     </p>
                     <p class="full">
-                        <button type="submit">Submit</button>
+                        <button type="submit">Submit Your Request</button>
                     </p>
                 </form>
             </div>
@@ -75,28 +82,23 @@
 
     <!-- footer -->
     <footer>
-        <!--CONTACT INFO-->
         <div class="contact-info">
-            <p><i class="fas fa-mobile-alt"></i> +44 (0) 208-never-going-to-get-it</p>
-            <p><i class="far fa-envelope"></i>RMBT@gmail.test</p>
+            <p><i class="fas fa-mobile-alt"></i> +44 1234 567890</p>
+            <p><i class="far fa-envelope"></i> bookings@rmbttravel.com</p>
         </div>
-        <!--SOCIAL MEDIA LINKS-->
         <ul class="social-networks">
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i class="fab fa-facebook-f"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Check us out on Instagram (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram"><i class="fab fa-instagram"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Check us out on Twitter (opens in a new tab)"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter"><i class="fab fa-twitter"></i></a>
             </li>
         </ul>
     </footer>
-    <!-- font awesome -->
+
     <script src="https://kit.fontawesome.com/2fa864f429.js" crossorigin="anonymous"></script>
 </body>
 
